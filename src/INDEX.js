@@ -1,29 +1,29 @@
 // Desafio do felipao
 
-let nomeheroi = "leitanael"
-let experienciaheroi = 8945
-let nivelheroi;
+let nomeHeroi = "leitanael"
+let experienciaHeroi = 8945
+let nivelHeroi;
 let rodando = true
 
 while (rodando === true){
 
-if (experienciaheroi < 1000){
-    nivelheroi = "ferro";
-}   else if (experienciaheroi >= 1001 && experienciaheroi <= 2000){
-    nivelheroi = "bronze"
-}   else if (experienciaheroi >= 2001 && experienciaheroi <= 5000){
-    nivelheroi = "prata"
-}   else if (experienciaheroi >= 5001 && experienciaheroi <= 6000){
-    nivelheroi = "ouro"
-}   else if (experienciaheroi >= 6001 && experienciaheroi <= 7000){
-    nivelheroi = "platina"
-}   else if (experienciaheroi >= 7001 && experienciaheroi <= 8000){
-    nivelheroi = "ascendente"
-}   else if (experienciaheroi >= 8001 && experienciaheroi <= 9000){
-    nivelheroi = "imortal"
+if (experienciaHeroi < 1000){
+    nivelHeroi = "ferro";
+}   else if (experienciaHeroi >= 1001 && experienciaHeroi <= 2000){
+    nivelHeroi = "bronze"
+}   else if (experienciaHeroi >= 2001 && experienciaHeroi <= 5000){
+    nivelHeroi = "prata"
+}   else if (experienciaHeroi >= 5001 && experienciaHeroi <= 6000){
+    nivelHeroi = "ouro"
+}   else if (experienciaHeroi >= 6001 && experienciaHeroi <= 7000){
+    nivelHeroi = "platina"
+}   else if (experienciaHeroi >= 7001 && experienciaHeroi <= 8000){
+    nivelHeroi = "ascendente"
+}   else if (experienciaHeroi >= 8001 && experienciaHeroi <= 9000){
+    nivelHeroi = "imortal"
 }   else {
-    nivelheroi = "radiante"
+    nivelHeroi = "radiante"
    }    rodando = false;
 }
 
-console.log ("O herói de nome " + nomeheroi + " está no nível de " + nivelheroi);
+console.log ("O herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi);
