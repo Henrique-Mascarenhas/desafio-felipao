@@ -23,7 +23,7 @@ if (experienciaheroi < 1000){
     nivelheroi = "imortal"
 }   else {
     nivelheroi = "radiante"
-    rodando === false;
+    rodando = false;
 } 
 }
 
