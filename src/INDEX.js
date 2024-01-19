@@ -23,8 +23,7 @@ if (experienciaheroi < 1000){
     nivelheroi = "imortal"
 }   else {
     nivelheroi = "radiante"
-    rodando = false;
-} 
+   }    rodando = false;
 }
 
-console.log ("O herói de nome " + nomeheroi + "está no nível de " + nivelheroi);
+console.log ("O herói de nome " + nomeheroi + " está no nível de " + nivelheroi);
