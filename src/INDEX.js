@@ -27,4 +27,4 @@ if (experienciaheroi < 1000){
 } 
 }
 
-console.log ("a classificação do herói " + nomeheroi + "é " + nivelheroi);
+console.log ("O herói de nome " + nomeheroi + "está no nível de " + nivelheroi);
